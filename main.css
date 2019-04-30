@@ -1,0 +1,79 @@
+.main {
+    width: 100%;
+    height: auto;
+}
+.photo {
+    height: 270px;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px 0 grey;
+    border: 1px solid lightgray;
+    display: inline-block;
+}
+.photo img {
+
+    height: 200px;
+    width: 170px;
+    margin: 15px;
+    object-fit: cover;
+}
+
+
+.first {
+    position: relative;
+    margin-left: 200px;
+    margin-top: 230px;
+    transform-origin: center;
+    transform: rotate(-30deg);
+}
+.second {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 70px;
+    transform-origin: center;
+    transform: rotate(20deg);
+}
+.third {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 600px;
+    transform-origin: center;
+    transform: rotate(-10deg);
+}
+.fourth {
+    position: relative;
+    margin-left: 300px;
+    margin-top: 0;
+    transform-origin: center;
+    transform: rotate(-15deg);
+}
+.fifth {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 70px;
+    transform-origin: center;
+    transform: rotate(20deg);
+}
+.sixth {
+    position: relative;
+    margin-left: 500px;
+
+    transform-origin: center;
+    transform: rotate(10deg);
+}
+
+#logo {
+    display: block;
+    position: relative;
+    margin-left: 0px;
+    margin-top: -180px;
+    transform-origin: center;
+    transform: rotate(-10deg);
+    line-height: 73px;
+}
+
+#logo p {
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+    text-align: center;
+}
